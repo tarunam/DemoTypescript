@@ -1,0 +1,19 @@
+{
+  "name": "DemoTypescript",
+  "version": "0.0.1",
+  "description": "Protractor e2e test automation for DemoTypescript",
+  "scripts": {
+    "pretest": "npm run tsc",
+    "test": "node_modules/.bin/protractor config.js",
+    "tsc": "tsc"
+  },
+  "author": "Tarunam",
+  "dependencies": {
+    "protractor": "^5.1.2",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^8.0.24"
+  }
+}

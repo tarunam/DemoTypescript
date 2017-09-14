@@ -1,0 +1,28 @@
+{
+  "homepage": {
+    "txtUserName": {
+      "method": "css",
+      "value": "input[name=username]"
+    },
+    "txtPassword": {
+      "method": "css",
+      "value": "input[name=password]"
+    },
+    "ttlBanner": {
+      "method": "css",
+      "value": ".banner-title"
+    },
+    "txtSignInError": {
+      "method": "css",
+      "value": ".signin-error"
+    },
+    "btnSignIn": {
+      "method": "css",
+      "value": "[text='Sign In']"
+    },
+    "lnkContactUs": {
+      "method": "linkText",
+      "value": "Contact Us."
+    }
+  }
+}
