@@ -10,7 +10,7 @@ describe('login to ACM', function () { //Suite in Jasmine
 
     it('should login as acmAdmin and banner should be shown', function () { // Test in Jasmine
         helper.goToUrl("/") ; // Entering application url in browser
-        homePO.login("acmAdmin","ptcACMAdmin");
+        homePO.login("admin","admin");
         //Use either of it to resolve promises
         homePO.getBannerText().then(bannerText => expect(bannerText).toEqual("Academic Admin Portal"));
         expect<any>(homePO.getBannerText()).toEqual("Academic Admin Portal");
