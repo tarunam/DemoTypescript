@@ -9,7 +9,7 @@ function sumVar(){
     }
     console.log("Value of sum for outside var loop...." + sum);
 }
-
+sumVar();
 function sumLet(){
     for(let x=0; x<10; x++){
         let sum1 = 10;
@@ -19,5 +19,5 @@ function sumLet(){
     console.log("Value of sum outside for loop...." + sum1);
 }
 
-sumVar();
+
 sumLet();

@@ -7,7 +7,7 @@ export let config: Config = {
         'browserName': 'chrome'
     },
     framework: 'jasmine2',
-    specs: ['com/demo/scripts/*.js'],
+    specs: ['com/demo/scripts/promiseEx.js'],
     jasmineNodeOpts: {
         defaultTimeoutInterval: 90000
     },

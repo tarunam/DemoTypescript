@@ -5,9 +5,12 @@ var materials = [
     'carbon'
 ];
 
+
+materials.map((material) => material.length);
+
 materials.map(function(material) {
     return material.length;
 });
 
-materials.map((material) => material.length);
+
 
