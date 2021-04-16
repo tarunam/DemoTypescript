@@ -1,1 +1,2 @@
 # DemoTypescript
+npm install
